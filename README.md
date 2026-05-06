@@ -46,7 +46,9 @@ While the original idea proved that a fully 3D-printable mechanical AMS was poss
 Check the `Hardware/` folder for current STL files and the `Software/` folder for the initial G-Code logic. 
 
 **Note:** Always remember to calibrate your "Head-Push" coordinates before the first run to avoid bed collision.
-
+---
+---
+[Video](https://github.com/magarcan/OpenMech-Swapper/raw/refs/heads/main/Docs/Grabaci%C3%B3n%202026-05-06%20132207.mp4)
 ---
 
 ## 🤝 Contributing & License
