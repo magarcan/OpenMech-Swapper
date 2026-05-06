@@ -1,54 +1,55 @@
 # OpenMech Swapper (OMS) 🔄
-### The Open-Source, Fully Mechanical Multi-Filament System
+### The Open-Source, Fully Mechanical Multi-Filament System for Bambu Lab A1 Series
 
-**OpenMech Swapper** is a high-performance, 100% mechanical filament switching system designed specifically for the **Bambu Lab A1 and A1 Mini**. 
+**OpenMech Swapper (OMS)** is a high-performance, 100% mechanical filament switching system. It is designed to bring multi-material capabilities to the **Bambu Lab A1 and A1 Mini** without the need for extra motors, sensors, or complex electronics.
 
-Unlike proprietary solutions, OMS is open-source and leverages pure mechanical engineering to enable multi-material printing without extra motors, sensors, or complex electronics. It uses the printer's toolhead movement to index filament slots and the existing extruder motor to drive the system.
+---
+
+## 💡 Origin & Credits
+This project is an **Open Source evolution** inspired by the brilliant mechanical concept of **MechAMS** created by [Sipers Mechatronics](https://sipersmechatronics.com). 
+
+While the original idea proved that a fully 3D-printable mechanical AMS was possible, **OMS** aims to make this technology accessible to everyone under an open-source license, incorporating community-driven improvements for better durability and precision.
 
 ---
 
 ## ✨ Key Features
-- **Zero-Elec Design:** No cables, no extra stepper motors, no PCB.
-- **Bambu-Native Integration:** Works via custom G-Code presets in Bambu Studio.
-- **Precision Transmission:** Uses standard **GT2 timing belts** for slip-free filament driving.
-- **Magnetic Indexing:** Features **Neodymium Magnetic Detents** for perfect slot alignment and tactile reliability.
-- **Non-Destructive:** Keep your printer's warranty. Installs and uninstalls in minutes.
-- **100% Open Source:** Modification-friendly files (STEP/STL) for the community to improve.
+- **Purely Mechanical:** Driven by your toolhead position and the existing extruder motor.
+- **GT2 Belt Drive:** Upgraded from friction bands to **standard 6mm GT2 timing belts** for zero-slip and high-torque transmission.
+- **Magnetic Indexing:** Uses **embedded Neodymium magnets** (4x2mm) to create precise "detents," ensuring perfect alignment of the filament slots with zero mechanical wear.
+- **Zero Electronics:** No cables, no PCB, no extra steppers.
+- **Non-Destructive:** Quick installation that keeps your printer's warranty intact.
 
 ---
 
-## 🛠 Hardware Specs & Improvements
-This project improves upon existing mechanical AMS concepts with two major upgrades:
-
-1.  **GT2 Belt Drive:** Replaces printed TPU bands with industrial-standard GT2 belts. This ensures consistent torque and prevents stretching over time, leading to more reliable filament loading.
-2.  **Embedded Magnetic Detents:** Uses 4x2mm Neodymium magnets embedded inside the printed parts. These provide a "snap-to-position" feel for each filament slot, ensuring the head is always perfectly aligned with the PTFE output.
+## 🛠 Improvements over the Concept
+1.  **Reliability:** By using GT2 belts, we eliminate the stretching issues of printed TPU bands.
+2.  **Precision:** The "Magnetic Snap" system ensures the indexing gear stays locked in the correct position even during high-speed printing.
+3.  **Accessibility:** All files (STEP/STL) are open for the community to remix and adapt to other printers.
 
 ---
 
 ## 📂 Compatibility
-- **Bambu Lab A1:** Full support (optimized for large build volume).
-- **Bambu Lab A1 Mini:** Full support (compact design for the Mini's footprint).
-- **Slicer:** Optimized for **Bambu Studio** & **Orca Slicer**.
+- **Hardware:** Bambu Lab A1 & A1 Mini.
+- **Software:** Custom G-Code presets for **Bambu Studio** and **Orca Slicer**.
 
 ---
 
-## 🚀 Getting Started (WIP)
-*Note: This project is currently in the prototyping phase.*
-
-1.  **Print:** Use the provided 3MF profiles (optimized for PETG/PLA).
-2.  **Assemble:** Insert the GT2 belt and pause the print to embed the magnets.
-3.  **Config:** Import the `OMS_A1_Profile.json` into Bambu Studio.
-4.  **Load:** Connect your PTFE tubes and start printing in multi-color.
+## 🔧 Hardware Requirements (BOM)
+- **Main Body:** Printed in PETG or PLA.
+- **Drive System:** 1x GT2 Timing Belt (6mm width).
+- **Indexing:** 4x2mm Neodymium Magnets (N52 recommended).
+- **Path:** Standard 4mm OD PTFE Tube.
 
 ---
 
-## 🤝 Contributing
-As an **Open Source** project, we welcome all improvements! 
-- Optimized G-Code for faster purges.
-- Variations for different magnet sizes.
-- Improved "Push-Lever" geometries.
+## 🚀 Status: Prototyping
+Check the `Hardware/` folder for current STL files and the `Software/` folder for the initial G-Code logic. 
+
+**Note:** Always remember to calibrate your "Head-Push" coordinates before the first run to avoid bed collision.
 
 ---
 
-## 📄 License
-Distributed under the **MIT License**. See `LICENSE` for more information.
+## 🤝 Contributing & License
+We welcome all contributions! Whether it's optimizing G-Code macros or refining the mechanical tolerances.
+
+Distributed under the **MIT License**.
