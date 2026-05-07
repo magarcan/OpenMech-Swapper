@@ -48,7 +48,11 @@ Check the `Hardware/` folder for current STL files and the `Software/` folder fo
 **Note:** Always remember to calibrate your "Head-Push" coordinates before the first run to avoid bed collision.
 ---
 ---
-[Video](https://github.com/magarcan/OpenMech-Swapper/raw/refs/heads/main/Docs/Grabaci%C3%B3n%202026-05-06%20132207.mp4)
+## 🖼️ Images
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/1.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/2.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/3.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/5.png)
 ---
 
 ## 🤝 Contributing & License
