@@ -1,61 +1,53 @@
-# OpenMech Swapper (OMS) 🔄
-### The Open-Source, Fully Mechanical Multi-Filament System for Bambu Lab A1 Series
+# OpenMech Swapper (OMS)
 
-**OpenMech Swapper (OMS)** is a high-performance, 100% mechanical filament switching system. It is designed to bring multi-material capabilities to the **Bambu Lab A1 and A1 Mini** without the need for extra motors, sensors, or complex electronics.
-
----
-
-## 💡 Origin & Credits
-This project is an **Open Source evolution** inspired by the brilliant mechanical concept of **MechAMS** created by [Sipers Mechatronics](https://sipersmechatronics.com). 
-
-While the original idea proved that a fully 3D-printable mechanical AMS was possible, **OMS** aims to make this technology accessible to everyone under an open-source license, incorporating community-driven improvements for better durability and precision.
+**OpenMech Swapper (OMS)** is a 100% mechanical filament switching solution for the **Bambu Lab A1 and A1 Mini**. It allows multi-material printing without requiring extra motors, complex electronics, or proprietary sensors.
 
 ---
 
-## ✨ Key Features
-- **Purely Mechanical:** Driven by your toolhead position and the existing extruder motor.
-- **GT2 Belt Drive:** Upgraded from friction bands to **standard 6mm GT2 timing belts** for zero-slip and high-torque transmission.
-- **Magnetic Indexing:** Uses **embedded Neodymium magnets** (4x2mm) to create precise "detents," ensuring perfect alignment of the filament slots with zero mechanical wear.
-- **Zero Electronics:** No cables, no PCB, no extra steppers.
-- **Non-Destructive:** Quick installation that keeps your printer's warranty intact.
+## The Backstory
+This project is an open-source evolution of the mechanical concept pioneered by [Sipers Mechatronics](https://sipersmechatronics.com) with **MechAMS**. 
+
+While the original concept proved that a fully printable AMS was possible, **OMS** focuses on accessibility and long-term reliability. We’ve moved to an open-source license and incorporated community feedback to improve durability and precision. Some improvements have also been made to the original concept.
 
 ---
 
-## 🛠 Improvements over the Concept
-1.  **Reliability:** By using GT2 belts, we eliminate the stretching issues of printed TPU bands.
-2.  **Precision:** The "Magnetic Snap" system ensures the indexing gear stays locked in the correct position even during high-speed printing.
-3.  **Accessibility:** All files (STEP/STL) are open for the community to remix and adapt to other printers.
+## Why OMS?
+*   **Purely Mechanical:** The system is driven entirely by the toolhead’s movement and the existing extruder motor.
+*   **GT2 Belt Drive:** We ditched 3D-printed TPU bands in favor of **standard 6mm GT2 timing belts** to eliminate slip and increase torque.
+*   **Magnetic Indexing:** Uses 4x2mm Neodymium magnets to create physical "detents." This ensures that the clutch plates remain perfectly aligned at all times without causing wear on the mechanical components.
+*   **Plug & Play (Mostly):** No electronics, no PCBs, and no extra steppers. It’s a non-destructive mod that won't void your warranty.
 
 ---
 
-## 📂 Compatibility
-- **Hardware:** Bambu Lab A1 & A1 Mini.
-- **Software:** Custom G-Code presets for **Bambu Studio** and **Orca Slicer**.
+## Key Improvements
+1.  **Reliability:** GT2 belts don't stretch or snap over time like printed bands do.
+2.  **Precision:** The "Magnetic Snap" system keeps the indexing gear locked during high-speed moves.
+3.  **Open Access:** All G Code and STL files are available for the community to remix or port to other printers.
 
 ---
 
-## 🔧 Hardware Requirements (BOM)
-- **Main Body:** Printed in PETG or PLA.
-- **Drive System:** 1x GT2 Timing Belt (6mm width).
-- **Indexing:** 4x2mm Neodymium Magnets (N52 recommended).
-- **Path:** Standard 4mm OD PTFE Tube.
+## Requirements & Compatibility
+*   **Printers:** Bambu Lab A1 & A1 Mini.
+*   **Slicer:** Compatible with **Bambu Studio** and **Orca Slicer** (requires custom G-Code presets).
+*   **BOM Highlights:** 
+    *   PETG or PLA for the body.
+    *   Standard 6mm GT2 Belt.
+    *   4x2mm Neodymium Magnets (N52).
+    *   MR 115 Bearing.
+    *   Standard 4mm OD PTFE tubing.
+    *   Pneumatic coupling PC4-M6
+    *   Steel D-Shaft 5mm x 90mm
 
 ---
 
-## 🚀 Status: Prototyping
-Check the `Hardware/` folder for current STL files and the `Software/` folder for the initial G-Code logic. 
+## Current Status: Prototyping
+The files are currently located in the “Hardware/” folder, and the preliminary G-code logic can be found in “Software/”. The priority is to get the hardware up and running before prototyping the software.
 
-**Note:** Always remember to calibrate your "Head-Push" coordinates before the first run to avoid bed collision.
----
----
-## 🖼️ Images
-![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/1.png)
-![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/2.png)
-![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/3.png)
-![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/5.png)
+Unfortunately, I don't even own a 3D printer, so I'm really counting on you to help refine the hardware.
+
 ---
 
-## 🤝 Contributing & License
-We welcome all contributions! Whether it's optimizing G-Code macros or refining the mechanical tolerances.
+## Contributing
+We’re looking for help with G-Code macro optimization and mechanical tolerance refining. Feel free to open a PR or an issue.
 
-Distributed under the **MIT License**.
+**License:** MIT
