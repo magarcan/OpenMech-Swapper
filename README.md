@@ -37,6 +37,7 @@ While the original concept proved that a fully printable AMS was possible, **OMS
     *   Standard 4mm OD PTFE tubing.
     *   Pneumatic coupling PC4-M6
     *   Steel D-Shaft 5mm x 90mm
+    *   Prusa Mk3s Extruder Gears
 
 ---
 
