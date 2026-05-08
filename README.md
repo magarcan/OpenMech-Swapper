@@ -35,7 +35,7 @@ While the original concept proved that a fully printable AMS was possible, **OMS
     *   4x2mm Neodymium Magnets (N52).
     *   MR 115 Bearing.
     *   Standard 4mm OD PTFE tubing.
-    *   Pneumatic coupling PC4-M6
+    *   Pneumatic coupling PC4-M10
     *   Steel D-Shaft 5mm x 90mm
     *   Prusa Mk3s Extruder Gears
 
