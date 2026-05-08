@@ -47,7 +47,17 @@ The files are currently located in the “Hardware/” folder, and the prelimina
 Unfortunately, I don't even own a 3D printer, so I'm really counting on you to help refine the hardware.
 
 ---
+## Images:
 
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/1.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/2.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/3.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/4.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/5.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/6.png)
+![alt text](https://raw.githubusercontent.com/magarcan/OpenMech-Swapper/refs/heads/main/Docs/Images/7.png)
+
+---
 ## Contributing
 We’re looking for help with G-Code macro optimization and mechanical tolerance refining. Feel free to open a PR or an issue.
 
