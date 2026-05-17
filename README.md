@@ -8,7 +8,7 @@
 
 OMS (OpenMech Swapper) is an open-source experimental project exploring mechanical approaches to multi-material filament switching for desktop FDM printers.
 
-The project was developed independently as part of the broader community interest in mechanically actuated filament systems, including publicly discussed projects such as MechAMS, ZSwitch, TetraFlow, and other mechanical MMU concepts.
+The project was developed independently as part of the broader community interest in mechanically actuated filament systems and open mechanical MMU experimentation for desktop FDM printers.
 
 OMS focuses on:
 
@@ -17,22 +17,22 @@ OMS focuses on:
 * use of standard off-the-shelf components
 * community-driven iteration and testing
 
-All OMS CAD, hardware layouts, and implementation details are independently created and released under an open-source license
+All OMS CAD, STL, and software components are released under an open-source license for community experimentation and adaptation.
 
 ---
 
 ## Why OMS?
 *   **Purely Mechanical:** The system is driven entirely by the toolhead’s movement and the existing extruder motor.
-*   **GT2 Belt Drive:** We ditched 3D-printed TPU bands in favor of **standard 6mm GT2 timing belts** to eliminate slip and increase torque.
+*   **GT2 Belt Drive:** Uses standard 6mm GT2 timing belts for improved torque transmission and long-term reliability.
 *   **Magnetic Indexing:** Uses 4x2mm Neodymium magnets to create physical "detents." This ensures that the clutch plates remain perfectly aligned at all times without causing wear on the mechanical components.
 *   **Plug & Play (Mostly):** No electronics, no PCBs, and no extra steppers. It’s a non-destructive mod that won't void your warranty.
 
 ---
 
-## Key Improvements
-1.  **Reliability:** GT2 belts don't stretch or snap over time like printed bands do.
-2.  **Precision:** The "Magnetic Snap" system keeps the indexing gear locked during high-speed moves.
-3.  **Open Access:** All G Code and STL files are available for the community to remix or port to other printers.
+## Design Features
+1.  **Reliability**
+2.  **Precision**
+3.  **Open Access**
 
 ---
 
@@ -54,7 +54,7 @@ All OMS CAD, hardware layouts, and implementation details are independently crea
 ## Current Status: Prototyping
 The files are currently located in the “Hardware/” folder, and the preliminary G-code logic can be found in “Software/”. The priority is to get the hardware up and running before prototyping the software.
 
-Unfortunately, I don't even own a 3D printer, so I'm really counting on you to help refine the hardware.
+Community testing and feedback are currently essential to validating hardware tolerances and mechanical reliability across different setups.
 
 ---
 ## Images:
@@ -72,3 +72,5 @@ Unfortunately, I don't even own a 3D printer, so I'm really counting on you to h
 We’re looking for help with G-Code macro optimization and mechanical tolerance refining. Feel free to open a PR or an issue.
 
 **License:** MIT
+
+**OMS does not include, redistribute, or reuse proprietary MechAMS assets, files, or documentation.**
