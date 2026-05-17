@@ -8,7 +8,7 @@
 
 OMS (OpenMech Swapper) is an open-source experimental project exploring mechanical approaches to multi-material filament switching for desktop FDM printers.
 
-The project was developed independently as part of the broader community interest in mechanically actuated filament systems and open mechanical MMU experimentation for desktop FDM printers.
+OMS was developed after observing publicly demonstrated mechanical concepts in MechAMS and other MMU projects, but all CAD, implementation details, and hardware were recreated independently and significantly modified.
 
 OMS focuses on:
 
