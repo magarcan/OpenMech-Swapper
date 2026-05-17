@@ -4,10 +4,20 @@
 
 ---
 
-## The Backstory
-This project is an open-source evolution of the mechanical concept pioneered by [Sipers Mechatronics](https://sipersmechatronics.com) with **MechAMS**. 
+## Background
 
-While the original concept proved that a fully printable AMS was possible, **OMS** focuses on accessibility and long-term reliability. We’ve moved to an open-source license and incorporated community feedback to improve durability and precision. Some improvements have also been made to the original concept.
+OMS (OpenMech Swapper) is an open-source experimental project exploring mechanical approaches to multi-material filament switching for desktop FDM printers.
+
+The project was developed independently as part of the broader community interest in mechanically actuated filament systems, including publicly discussed projects such as MechAMS, ZSwitch, TetraFlow, and other mechanical MMU concepts.
+
+OMS focuses on:
+
+* open-source accessibility
+* modular mechanical experimentation
+* use of standard off-the-shelf components
+* community-driven iteration and testing
+
+All OMS CAD, hardware layouts, and implementation details are independently created and released under an open-source license
 
 ---
 
